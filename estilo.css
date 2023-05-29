@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 17, 255);
+}
+.rodape {
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .menu {
+        height: 100px;
+        background-color: rgb(255, 0, 242);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .menu {
+        height: 150px;
+        background-color: rgb(0, 0, 0);
+        color: #FFF;
+        font-size: 64px;
+    }
+}
