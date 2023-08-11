@@ -98,19 +98,30 @@ ul {    width: 100%;
 .rodape{
     text-align: center;
 }
-@media  screen and ( min-width: 768px) {
-    .menu{
-        height: 100px;
-        background-color: rgb(138, 137, 137);
-        color: black
-    }
+@media  screen and ( min-width: 820px) {
+   .nav {
+       max-height: none;
+       top: 0;
+       position: relative;
+       float: right;
+       width: fit-content;
+       background-color: transparent;
+   }
+   .menu li {
+       float: left;
+   }
+   .menu a:hover {
+       background-color: transparent;
+   }
+   .hamb {
+       display: none;
+   }
+   .menu li {
+      text-decoration: underline;
+      
+   }
 }
-@media screen and (min-width: 1280px) {
-    .menu{
-        height: 150px;
-        background-color: rgb(211, 211, 211);
-        color: black;
-        font-size: 64px;
-    }
+@media screen and (min-width: 1028px) {
+   
 }
     
